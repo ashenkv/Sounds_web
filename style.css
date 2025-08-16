@@ -1,0 +1,408 @@
+.main-body{
+    background-image: url("resource/bakground2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mr{
+    margin-right: 350px;
+}
+
+.logo{
+    background-image: url("resource/logo.png");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgh{
+    background-color: #82CD47;
+}
+.bgh:hover{
+    background-image: linear-gradient(#82CD47, #379237);
+    /* background-color: #379237; */
+    transition: all 1s ease;
+}
+
+.bgh2{
+    background-image: linear-gradient(#82CD47, #379237);
+}
+
+.tclr{
+    color:#379237;
+}
+
+@font-face{
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face{
+    font-family: "believe";
+    src: url("font/BelieveIt.ttf");
+}
+
+*{
+    font-family: "Quicksand";
+    font-size: 14px;
+}
+
+.title1{
+    font-family: "believe";
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.title2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.border1{
+    background-color: #BEDAEC;
+}
+.border2{
+    color: #D97D87;
+}
+.giftxt{
+    color: #220B0B;
+}
+
+.cart-icon{
+    background-image: url("resource/cart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.slide-1{
+    width: 100%;
+    height: 390px;
+    background-repeat: no-repeat;
+}
+
+/* .slide-2{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+} */
+
+.slide-caption{
+    margin-bottom: 30px;
+}
+
+.slide-title{
+    color: #eefaff;
+    font-weight: bold;
+}
+
+.slide-txt{
+    font-size: 20px;
+    color: rgb(246, 253, 253);
+}
+
+.slide-caption-1{
+    margin-bottom: 50px;
+    margin-right: 280px;
+}
+
+.slide-2{
+    width: 20%;
+    margin-left: 40%;
+    background-repeat: no-repeat;
+}
+
+.slide_h{
+    height: 30%;
+}
+.slide_h2{
+    height: 0%;
+}
+.slide_h3{
+    height: 40%;
+}
+
+
+.signout{
+    height: 29px;
+    color: #C44D4D;
+    border: none;
+    cursor: pointer;
+}
+
+.signin{
+    height: 29px;
+    color: #3EA6BB;
+    border: none;
+    cursor: pointer;
+}
+
+.help{
+    height: 29px;
+    color: rgb(116, 116, 192);
+    border: none;
+}
+.sell{
+    cursor: pointer;
+}
+.pimgs{
+    cursor: pointer;
+}
+.link{
+    cursor: pointer;
+}
+
+.pm{
+    height: 60px;
+    width: 630px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pm1{
+    background-image: url("resource/payment_method/visa_img.png");
+}
+
+.pm2{
+    background-image: url("resource/payment_method/mastercard_img.png");
+}
+
+.pm3{
+    background-image: url("resource/payment_method/american_express_img.png");
+}
+
+.pm4{
+    background-image: url("resource/payment_method/paypal_img.png");
+}
+
+.singleProduct{
+    padding-top: 65px;
+    padding-bottom: 145px;
+    padding: 20px;
+}
+
+/* .main_img{
+    height: 500px;
+    background-image: url("resource/product_imgs/1earphones_&_headphones/JBL_660NC.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.m_img{
+    height: 375px;
+    background-position: center;
+    padding-left: 100px;
+    padding-top: 7px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sp_txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.product-qty{
+    width: 1100px;
+    height: 45px;
+    padding: 10px;
+}
+
+.qty-buttons{
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+    border: solid 1px rgb(160, 159, 159);
+}
+
+.qty-inc,.qty-dec{
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.qty-inc{
+    border-top-right-radius: 5px;
+}
+
+.qty-dec{
+    border-bottom-right-radius: 5px;
+}
+
+.emptyView{
+    height: 400px;
+    background-image: url("resource/watchlistEmptyView.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.emptyCart{
+    height: 400px;
+    background-image: url("resource/emptycart.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.invoiceHeaderImage{
+    height: 80px;
+    background-image: url("resource/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.message_box,
+.chat_box{
+    height: 150px;
+    overflow-y: scroll;
+}
+.chat_box2{
+    height: 170px;
+    overflow-y: scroll;
+}
+
+.first-place{
+    height: 90px;
+    background-image: url("resource/first.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.adminbg{
+    background-color: #11AB85;
+    /* background-image: url("resource/adminbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.adp{
+    background-image: url("resource/adp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ad1{
+    background-color: rgb(135, 184, 247);
+}
+
+.ad2{
+    background-color: rgb(37, 204, 140);
+}
+
+.ad3{
+    background-color: rgb(91, 240, 183);
+}
+
+.ad4{
+    background-color: rgb(53, 143, 17);
+}
+
+.ad5{
+    background-color: rgb(206, 51, 24);
+}
+
+.ad6{
+    background-color: rgb(53, 143, 17);
+}
+
+.ad7{
+    background-color: rgb(6, 16, 75)
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.hvr {
+    height: 400px;
+    width: 400px;
+    border: none;
+}
+
+.hvr:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.bc{
+    background-color: #ffffff;
+    color: #C80F0F;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bc2{
+    background-color: #E1E7E6;
+}
+
+.bc3{
+    background-color: #F1F7FE;
+}
+
+.bg2 {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.d1{
+    background-color: #C63B3B;
+}
+.d2{
+    background-color: #3B9DC6;
+}
+.d3{
+    background-color: #34B25E;
+}
+
+.c1:active{
+    color: #C63B3B;
+}
+
+/* zoom in/out */
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1s ease;
+}
+
+.inner :hover{
+    transform: scale(1.2);
+}
+/* zoom in/out */
+
+.cp{
+    cursor: pointer;
+}
